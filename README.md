@@ -37,9 +37,14 @@ block the vm start until we were able to send the new snapshot to the server.
 We may need an option to shutdown the VM without havig to send the state to the server.
 
 #### One day of work
-A regulat one day of work is less than 2GB for a snapshot with / and /home in 2 different files
+A regulat one day of work is less than 12GB for a snapshot with / and /home in 2 different files
 
-Stangely the biggest one the the /home one for 1.2GB whereas the / in only few hundred of MB.
+Stangely the biggest one the the /home one for 12GB whereas the / in only few hundred of MB (400).
+
+```
+-rwxrwxrwx  1 libvirt-qemu libvirt-qemu  12G Apr 12 19:45 ultra-home-snap-desktop-2022-04-11.qcow2
+-rwxrwxrwx  1 libvirt-qemu libvirt-qemu 404M Apr 12 19:45 ultra-system-snap-desktop-2022-04-11.qcow2
+```
 
 #### Compact
 
