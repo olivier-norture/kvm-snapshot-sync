@@ -58,6 +58,13 @@ Sometime I may want beeing able to let the VM runs from the desktop and do a dis
 This way I could reduce the battery consuption from the laptop and easilly takeover from the desktop to the laptop and then
 came back to the desktop without any downtime.
 
+## Virsh commands
+
+```
+  400  sudo virsh snapshot-list archlinux-ultra
+  401  sudo virsh snapshot-delete archlinux-ultra --snapshotname desktop-2022-04-13
+
+```
 
 ## Commands list
 
